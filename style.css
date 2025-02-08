@@ -1,0 +1,46 @@
+header {
+    border: 1px solid green;
+    background-color: #A6ECE0;
+}
+body {
+    justify-content: center;
+    align-content: center;
+}
+#marca {
+    padding: 15px;
+    text-align: center;
+}
+#redirect {
+    padding: 15px;
+}
+#redirect ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    gap: 300px;
+    justify-content: center;
+    display: flex;
+}
+#p1 {
+    height: 500px;
+    width: 700px;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+#imagen1 {
+    border-radius: 15px 0 0 15px;
+    height: 500px;
+}
+#product1 {
+    padding: 30px;
+}
+footer section ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    gap: 30px;
+    justify-content: center;
+    display: flex;
+}
