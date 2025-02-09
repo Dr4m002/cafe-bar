@@ -55,7 +55,6 @@
       <button>Comprar</button>
     </section>
   </section>
-  
   <footer>
     <section id="contacto">
       <ul>
@@ -66,5 +65,21 @@
       </ul>
     </section>
   </footer>
+  <script>
+    let nameUser = prompt("Ingresa tu nombre");
+    let ageUser = prompt("Ingresa tu edad");
+    if(ageUser >= 18){
+      alert("Bienvenido, " +nameUser+", compra todo lo que quieras.");
+    }else{
+      alert(nameUser+ ", aún no tienes la edad para comprar por internet");
+    }
+    
+    if (confirm("¿Estás seguro de que deseas continuar?")) {
+    console.log("Acción confirmada");
+    }else{
+       console.log("Acción cancelada")
+      }
+
+  </script>
 </body>
 </html>
